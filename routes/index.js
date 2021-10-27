@@ -18,7 +18,7 @@ var options = {
 }
 
 /* GET home page. */
-router.post('/tiktok', async (req, res, next) => {
+router.post('/tiktok/nowm', async (req, res, next) => {
     var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress
     var OPTIONS = { date: moment().tz('Asia/Jakarta'), ip: ip }
 
