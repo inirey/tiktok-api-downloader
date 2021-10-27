@@ -1,0 +1,4 @@
+node_modules
+public/videos/*.mp4
+*-lock.json
+database/*.json

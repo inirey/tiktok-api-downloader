@@ -1,0 +1,21 @@
+{
+  "name": "tiktok",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "moment-timezone": "^0.5.33",
+    "morgan": "~1.9.1",
+    "nedb": "^1.8.0",
+    "needle": "^2.6.0",
+    "request-ip": "^2.1.3",
+    "tiktok-scraper": "^1.4.22"
+  }
+}
