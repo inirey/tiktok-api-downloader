@@ -2,7 +2,7 @@
   "name": "tiktok-api",
   "version": "0.0.0",
   "private": true,
-  "author": ibnusyawall,
+  "author": ibnusyawall
   "scripts": {
     "start": "node ./bin/www"
   },
